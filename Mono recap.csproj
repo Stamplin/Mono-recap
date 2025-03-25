@@ -11,6 +11,18 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Content\Font\**" />
+    <Compile Remove="Content\misc\**" />
+    <EmbeddedResource Remove="Content\Font\**" />
+    <EmbeddedResource Remove="Content\misc\**" />
+    <None Remove="Content\Font\**" />
+    <None Remove="Content\misc\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Content\info.txt" />
+    <None Remove="Content\Motterdam-MVanr.otf" />
+    <None Remove="Content\TitleFont.spritefont" />
+    <None Remove="Content\wing.png" />
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
   </ItemGroup>
